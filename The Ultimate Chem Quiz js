@@ -1,0 +1,12 @@
+function checkAnswer(answer) {
+  var result = document.getElementById("result");
+
+  if (answer === 'A') {
+    result.innerHTML = "✅ Correct Answer!";
+    result.style.color = "green";
+  } 
+  else {
+    result.innerHTML = "❌ Wrong Answer! Try Again.";
+    result.style.color = "red";
+  }
+}
