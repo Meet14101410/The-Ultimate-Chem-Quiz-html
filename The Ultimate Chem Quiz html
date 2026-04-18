@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The Ultimate Chem Quiz</title>
+</head>
+
+<body>
+
+  <h1>The Ultimate Chem Quiz</h1>
+
+  <div id="quiz">
+
+    <h3>1. What is the chemical symbol for Water?</h3>
+
+    <button onclick="checkAnswer('A')">A. H2O</button><br><br>
+    <button onclick="checkAnswer('B')">B. CO2</button><br><br>
+    <button onclick="checkAnswer('C')">C. O2</button><br><br>
+    <button onclick="checkAnswer('D')">D. NaCl</button>
+
+    <p id="result"></p>
+
+  </div>
+
+</body>
+</html>
